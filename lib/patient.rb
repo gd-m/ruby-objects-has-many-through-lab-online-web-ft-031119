@@ -21,7 +21,6 @@ class Patient
         array << app
       end
       end
-      array
   end
 
   def new_appointment(doctor , date)
