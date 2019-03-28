@@ -29,4 +29,8 @@ class Patient
     new_app
   end
 
+  def doctors
+    
+  end
+
 end
