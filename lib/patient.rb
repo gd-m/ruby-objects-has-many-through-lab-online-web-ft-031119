@@ -28,7 +28,7 @@ class Patient
     new_app = Appointment.new(self,doctor, date)
     @appointments << new_app
     new_app
-    
+
   end
 
   def appointments
