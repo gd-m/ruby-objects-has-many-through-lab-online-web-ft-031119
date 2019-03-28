@@ -27,7 +27,6 @@ class Doctor
     @appointments.collect do |app|
       app.patient
     end
-
   end
 
 
