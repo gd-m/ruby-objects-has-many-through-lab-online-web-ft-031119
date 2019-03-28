@@ -17,9 +17,9 @@ class Patient
 
   def doctors
     array = []
-    Appointment.all.collect do |app|
+    Appointment.all.select do |app|
       if app.patient == self
-        array << app
+        app
       end
       end
   end
