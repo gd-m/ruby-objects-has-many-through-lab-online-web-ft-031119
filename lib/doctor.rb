@@ -23,6 +23,13 @@ class Doctor
     @appointments
   end
 
+  def patients
+    @appointments.collect do |app|
+      app.patient
+    end
+    
+  end
+
 
 
 end
