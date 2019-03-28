@@ -29,7 +29,8 @@ class Patient
     new_app
   end
 
-  def doctors
+  def appointments
+    @appointments
 
   end
 
