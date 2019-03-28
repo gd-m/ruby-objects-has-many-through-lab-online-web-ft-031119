@@ -17,8 +17,12 @@ class Doctor
     new_app = Appointment(date, self, patient)
     @appointments << new_app
     new_app
-
   end
+
+  def appointments
+    @appointments    
+  end
+  
 
 
 end
