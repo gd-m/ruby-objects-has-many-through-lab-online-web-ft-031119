@@ -14,7 +14,7 @@ class Patient
     @@all
   end
 
-  def appointments
+  def doctors
     array = []
     Appointment.all.collect do |app|
       if app.patient == self
